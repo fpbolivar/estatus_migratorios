@@ -1,0 +1,38 @@
+INSTRUCCIONES DE USO
+
+Esta aplicación le permite verificar el estado de sus casos migratorios con USCIS (Servicios de Ciudadanía e Inmigración de EE.UU.) y EOIR (Oficina Ejecutiva de Revisión de Inmigración).
+
+AGREGAR UN NUEVO CASO:
+1. Pulse el botón + en la esquina inferior derecha
+2. Elija el tipo de caso:
+   - USCIS: Para casos de inmigración (permisos de trabajo, residencia, etc.)
+   - EOIR: Para casos en corte de inmigración
+
+PARA CASOS USCIS:
+- Ingrese el número de recibo (ejemplo: IOE0123456789)
+- Opcionalmente, agregue un nombre para identificar el caso
+- El número de recibo se encuentra en las notificaciones de USCIS
+
+PARA CASOS EOIR:
+- Ingrese el número de extranjero/alien (debe comenzar con "A" seguido de 9 dígitos)
+- Opcionalmente, agregue el nombre del beneficiario
+- El número de extranjero se encuentra en documentos oficiales de inmigración
+
+VERIFICAR ESTADO:
+- Toque cualquier caso en la lista para ver su estado actual
+- La aplicación intentará obtener automáticamente la información
+- IMPORTANTE: Durante la verificación de estado, espere a que el proceso se complete automáticamente
+- No toque la pantalla durante la carga, esto podría interferir con el proceso automatizado
+- Si después de 5 segundos no ve resultados, puede pulsar el botón "Listo" en la esquina superior derecha
+
+ACTUALIZAR TODOS LOS CASOS:
+- Deslice hacia abajo en la pantalla principal para actualizar todos los casos
+- Este proceso puede tomar tiempo si tiene muchos casos
+
+ELIMINAR CASOS:
+- Deslice el caso de derecha a izquierda para eliminarlo
+
+NOTAS IMPORTANTES:
+- La información mostrada proviene directamente de los sistemas oficiales de USCIS y EOIR
+- La aplicación guarda sus números de caso únicamente en su dispositivo
+- No se envía ninguna información a servidores externos

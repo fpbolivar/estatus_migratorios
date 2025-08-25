@@ -1,0 +1,34 @@
+POLÍTICA DE PRIVACIDAD
+
+Última actualización: 23 de agosto de 2025
+
+Esta aplicación de Estatus Migratorios respeta su privacidad y está comprometida con la protección de sus datos personales.
+
+1. INFORMACIÓN QUE RECOPILAMOS
+
+Esta aplicación almacena localmente en su dispositivo:
+- Números de recibo de casos migratorios (USCIS)
+- Números de Alien (EOIR)
+- Nombres asociados a los casos
+- Estado actual de los casos
+
+No recopilamos ni transmitimos esta información a nuestros servidores. Todos los datos se almacenan exclusivamente en su dispositivo.
+
+2. USO DE LA INFORMACIÓN
+
+La información almacenada se utiliza únicamente para:
+- Mostrar el estado de sus casos migratorios
+- Actualizar automáticamente el estado cuando sea posible
+- Mejorar su experiencia de uso de la aplicación
+
+3. SITIOS WEB DE TERCEROS
+
+Esta aplicación consulta las páginas oficiales de USCIS y EOIR para obtener información sobre el estado de sus casos. No tenemos control sobre las políticas de privacidad de estos sitios.
+
+4. CAMBIOS A ESTA POLÍTICA
+
+Podemos actualizar nuestra política de privacidad ocasionalmente. Le notificaremos cualquier cambio publicando la nueva política de privacidad en esta pantalla.
+
+5. CONTACTO
+
+Si tiene preguntas sobre esta política de privacidad, puede contactarnos a través de la tienda de aplicaciones.

@@ -1,0 +1,38 @@
+name: estatus_migratorio
+description: "App para verificar el estatus de casos migratorios"
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  flutter_secure_storage: ^8.1.0
+  webview_flutter: ^4.13.0
+  shared_preferences: ^2.2.0
+  flutter_lints: ^2.0.0
+  html: ^0.15.0
+  flutter_inappwebview: ^6.0.0
+  flutter_launcher_icons: ^0.14.4  # Add this line
+  flutter_svg: ^2.0.9  # Add this for SVG support
+
+flutter:
+  assets:
+    - assets/texts/privacy_policy.txt
+    - assets/texts/terms_of_service.txt
+    - assets/texts/instructions.txt
+    - assets/images/logo.png
+    - assets/images/add_logo.png
+    - assets/images/about_logo.png
+    - assets/images/eoir_logo.svg
+    - assets/images/uscis_logo.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.png"
+  adaptive_icon_background: "#FFFFFF"  # White background for adaptive icons
+  remove_alpha_ios: true  # Removes alpha channel for iOS, which is usually recommended
