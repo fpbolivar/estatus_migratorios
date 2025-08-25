@@ -142,17 +142,29 @@ class _USCISWebViewState extends State<USCISWebView> {
             const statusDiv = document.querySelector('.conditionalLanding');
             let statusText = statusDiv ? statusDiv.innerText.trim() : '';
             
-            // Headless mode: send only the first line
-            if (${!widget.showUI}) {
-              statusText = statusText.split('\\n')[0].trim();
-              if (statusText) {
+            if (statusText) {
+              // If we have content in statusDiv, process and send it
+              if (!statusText.includes('Verifique el Estatus de su Caso')) {
+                console.log("Found case status, auto-closing");
                 CaseChannel.postMessage(statusText);
+                observer.disconnect();
               }
             }
           });
           
           const statusDiv = document.querySelector('.conditionalLanding');
           if (statusDiv) observer.observe(statusDiv, { childList: true, subtree: true });
+          
+          // Set a timeout to auto-close if nothing happens
+          setTimeout(function() {
+            const statusDiv = document.querySelector('.conditionalLanding');
+            let statusText = statusDiv ? statusDiv.innerText.trim() : '';
+            
+            if (statusText && !statusText.includes('Verifique el Estatus de su Caso')) {
+              console.log("Timeout reached, found status");
+              CaseChannel.postMessage(statusText);
+            }
+          }, 10000);
         }
       })();
     ''');
